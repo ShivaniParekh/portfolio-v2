@@ -4,66 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Your Name</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
-    <!-- About Section -->
-    <section id="about" class="container mt-5">
-        <h1>Hi, I'm [Your Name]</h1>
-        <p>Data Scientist | Developer | Machine Learning Enthusiast</p>
-        <p>Welcome to my portfolio! Here, you'll find my latest projects and achievements.</p>
-    </section>
+    <!-- Header Section -->
+    <header>
+        <h1>Hello, I'm Shivani Parekh!</h1>
+        <p>A brief introduction about yourself.</p>
+    </header>
+    
 
     <!-- Projects Section -->
-    <section id="projects" class="container mt-5">
+    <section id="projects">
         <h2>Projects</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="assets/project1.png" class="card-img-top" alt="Project 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Project 1</h5>
-                        <p class="card-text">Description of the project.</p>
-                        <a href="#" class="btn btn-primary">View Details</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Add more project cards as needed -->
+        <div class="project">
+            <img src="images/pred.jpeg" alt="Project 1">
+            <h3>Project Title</h3>
+            <p>Short description of the project.</p>
+            <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+            <a href="https://project1-demo.com" target="_blank">Live Demo</a>
         </div>
+        <!-- Repeat for additional projects -->
     </section>
+    
 
     <!-- Contact Section -->
-    <section id="contact" class="container mt-5">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Your LinkedIn Profile</a></p>
+        <!-- Add other social links as needed -->
     </section>
-
-    <!-- Footer -->
-    <footer class="text-center mt-5">
-        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    <footer>
+        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
     </footer>
+    
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
